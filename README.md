@@ -220,182 +220,187 @@ CUDA_VISIBLE_DEVICES=0 python 5k_code.py
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <td rowspan="20">In-domain</td>
-      <td rowspan="6"><i>Object</i></td>
-      <td>mPLUG-Owl</td>
-      <td>49.8</td>
-      <td>49.8</td>
-      <td>44.7</td>
-      <td>47.1</td>
-      <td>44.1</td>
-    </tr>
-    <tr>
-      <td>LLaVA</td>
-      <td>52.6</td>
-      <td>55.5</td>
-      <td>26.3</td>
-      <td>35.7</td>
-      <td>23.6</td>
-    </tr>
-        <tr>
-      <td>MiniGPT-4</td>
-      <td>53.2</td>
-      <td>53.1</td>
-      <td>45.8</td>
-      <td>48.8</td>
-      <td>45.4</td>
-    </tr>
-    <tr>
-      <td>LLaVA1.5</td>
-      <td>54.7</td>
-      <td>54.6</td>
-      <td>47.2</td>
-      <td>50.2</td>
-      <td>46.9</td>
-    </tr>
-    <tr>
-      <td>Instructblip</td>
-      <td>56.3</td>
-      <td>56.2</td>
-      <td>49.1</td>
-      <td>52.2</td>
-      <td>48.6</td>
-    </tr>
+  <tr>
+    <td rowspan="20">In-domain</td>
+    <td rowspan="6"><i>Object</i></td>
+    <td>mPLUG-Owl</td>
+    <td>49.8</td>
+    <td>49.8</td>
+    <td>44.7</td>
+    <td>47.1</td>
+    <td>44.1</td>
+  </tr>
+  <tr>
+    <td>LLaVA</td>
+    <td>52.6</td>
+    <td>55.5</td>
+    <td>26.3</td>
+    <td>35.7</td>
+    <td>23.6</td>
+  </tr>
+  <tr>
+    <td>MiniGPT-4</td>
+    <td>50.4</td>
+    <td>50.3</td>
+    <td>46.5</td>
+    <td>48.3</td>
+    <td>40.2</td>
+  </tr>
+  <tr>
+    <td>InstructBLIP</td>
+    <td>50.0</td>
+    <td>50.0</td>
+    <td>99.0</td>
+    <td>66.5</td>
+    <td>98.0</td>
+  </tr>
+  <tr>
+    <td>LLaVA 1.5</td>
+    <td>62.2</td>
+    <td>76.1</td>
+    <td>35.6</td>
+    <td>48.5</td>
+    <td>23.3</td>
+  </tr>
   </tbody>
    <tbody>
-      <tr>
-      <td rowspan="20">In-domain</td>
-      <td rowspan="6"><i>Attribute</i></td>
-      <td>mPLUG-Owl</td>
-      <td>48.4</td>
-      <td>48.3</td>
-      <td>43.2</td>
-      <td>45.6</td>
-      <td>42.6</td>
-    </tr>
-    <tr>
-      <td>LLaVA</td>
-      <td>51.2</td>
-      <td>51.1</td>
-      <td>45.7</td>
-      <td>48.4</td>
-      <td>45.1</td>
-    </tr>
-    <tr>
-      <td>MiniGPT-4</td>
-      <td>52.8</td>
-      <td>52.7</td>
-      <td>46.1</td>
-      <td>49.2</td>
-      <td>45.8</td>
-    </tr>
-    <tr>
-      <td>LLaVA1.5</td>
-      <td>54.3</td>
-      <td>54.2</td>
-      <td>47.1</td>
-      <td>50.1</td>
-      <td>46.7</td>
-    </tr>
-    <tr>
-      <td>Instructblip</td>
-      <td>55.9</td>
-      <td>55.8</td>
-      <td>48.7</td>
-      <td>51.8</td>
-      <td>48.3</td>
-    </tr>
-  </tbody>
-   <tbody>
-    <tr>
-      <td rowspan="20">In-domain</td>
-      <td rowspan="6"><i>Relation</i></td>
-      <td>mPLUG-Owl</td>
-      <td>47.6</td>
-      <td>47.5</td>
-      <td>42.8</td>
-      <td>45.1</td>
-      <td>42.1</td>
-    </tr>
-    <tr>
-      <td>LLaVA</td>
-      <td>50.4</td>
-      <td>50.3</td>
-      <td>45.2</td>
-      <td>47.8</td>
-      <td>44.7</td>
-    </tr>
-    <tr>
-      <td>MiniGPT-4</td>
-      <td>51.9</td>
-      <td>51.8</td>
-      <td>46.5</td>
-      <td>49.6</td>
-      <td>46.2</td>
-    </tr>
-    <tr>
-      <td>LLaVA1.5</td>
-      <td>53.4</td>
-      <td>53.3</td>
-      <td>47.8</td>
-      <td>50.8</td>
-      <td>47.4</td>
-    </tr>
-    <tr>
-      <td>Instructblip</td>
-      <td>55.0</td>
-      <td>54.9</td>
-      <td>48.3</td>
-      <td>51.4</td>
-      <td>47.9</td>
-    </tr>
-    </tbody>
-   <tbody>
-    <tr>
-     <td rowspan="20">In-domain</td>
-      <td rowspan="6"><i>Event</i></td>
-      <td>mPLUG-Owl</td>
-      <td>46.8</td>
-      <td>46.7</td>
-      <td>42.1</td>
-      <td>44.3</td>
-      <td>41.4</td>
-    </tr>
-    <tr>
-      <td>LLaVA</td>
-      <td>49.6</td>
-      <td>49.5</td>
-      <td>44.5</td>
-      <td>47.1</td>
-      <td>44.0</td>
-    </tr>
-    <tr>
-      <td>MiniGPT-4</td>
-      <td>51.2</td>
-      <td>51.1</td>
-      <td>45.8</td>
-      <td>48.6</td>
-      <td>45.4</td>
-    </tr>
-    <tr>
-      <td>LLaVA1.5</td>
-      <td>52.7</td>
-      <td>52.6</td>
-      <td>46.9</td>
-      <td>49.8</td>
-      <td>46.5</td>
-    </tr>
-    <tr>
-      <td>Instructblip</td>
-      <td>54.3</td>
-      <td>54.2</td>
-      <td>47.5</td>
-      <td>50.6</td>
-      <td>47.1</td>
-    </tr>
-   </tbody>
+  <tr>
+    <td rowspan="20">In-domain</td>
+    <td rowspan="7"><i>Attribute</i></td>
+    <td>mPLUG-Owl</td>
+    <td>49.9</td>
+    <td>49.9</td>
+    <td>44.7</td>
+    <td>47.2</td>
+    <td>44.6</td>
+  </tr>
+  <tr>
+    <td>LLaVA</td>
+    <td>52.8</td>
+    <td>55.9</td>
+    <td>26.3</td>
+    <td>35.8</td>
+    <td>23.5</td>
+  </tr>
+  <tr>
+    <td>MiniGPT-4</td>
+    <td>51.1</td>
+    <td>51.1</td>
+    <td>46.5</td>
+    <td>48.7</td>
+    <td>39.4</td>
+  </tr>
+  <tr>
+    <td>InstructBLIP</td>
+    <td>49.8</td>
+    <td>49.8</td>
+    <td>99.0</td>
+    <td>66.3</td>
+    <td>98.1</td>
+  </tr>
+  <tr>
+    <td>LLaVA 1.5</td>
+    <td>62.2</td>
+    <td>76.1</td>
+    <td>35.6</td>
+    <td>48.5</td>
+    <td>23.3</td>
+  </tr>
+</tbody>
+<tbody>
+  <tr>
+   <td rowspan="20">In-domain</td>
+    <td rowspan="5"><i>Relation</i></td>
+    <td>mPLUG-Owl</td>
+    <td>50.4</td>
+    <td>50.5</td>
+    <td>44.7</td>
+    <td>47.4</td>
+    <td>44.7</td>
+  </tr>
+  <tr>
+    <td>LLaVA</td>
+    <td>52.7</td>
+    <td>55.7</td>
+    <td>26.3</td>
+    <td>35.8</td>
+    <td>23.7</td>
+  </tr>
+  <tr>
+    <td>MiniGPT-4</td>
+    <td>50.4</td>
+    <td>50.1</td>
+    <td>46.5</td>
+    <td>48.2</td>
+    <td>40.0</td>
+  </tr>
+  <tr>
+    <td>InstructBLIP</td>
+    <td>49.8</td>
+    <td>49.9</td>
+    <td>99.0</td>
+    <td>66.3</td>
+    <td>97.7</td>
+  </tr>
+  <tr>
+    <td>LLaVA 1.5</td>
+    <td>55.4</td>
+    <td>59.1</td>
+    <td>35.6</td>
+    <td>44.4</td>
+    <td>22.1</td>
+  </tr>
+</tbody>
+<tbody>
+  <tr>
+   <td rowspan="20">In-domain</td>
+    <td rowspan="5"><i>Event</i></td>
+    <td>mPLUG-Owl</td>
+    <td>49.7</td>
+    <td>49.7</td>
+    <td>44.6</td>
+    <td>47.0</td>
+    <td>44.8</td>
+  </tr>
+  <tr>
+    <td>LLaVA</td>
+    <td>51.5</td>
+    <td>53.0</td>
+    <td>26.3</td>
+    <td>35.1</td>
+    <td>24.8</td>
+  </tr>
+  <tr>
+    <td>MiniGPT-4</td>
+    <td>49.6</td>
+    <td>50.0</td>
+    <td>46.5</td>
+    <td>48.2</td>
+    <td>40.3</td>
+  </tr>
+  <tr>
+    <td>InstructBLIP</td>
+    <td>49.6</td>
+    <td>49.7</td>
+    <td>99.0</td>
+    <td>66.2</td>
+    <td>84.3</td>
+  </tr>
+  <tr>
+    <td>LLaVA 1.5</td>
+    <td>62.7</td>
+    <td>77.9</td>
+    <td>35.6</td>
+    <td>48.9</td>
+    <td>22.8</td>
+  </tr>
+</tbody>
 </table>
+<style>
+  tr {
+    border-bottom: 1px solid black;
+  }
+</style>
 <table>
   <thead>
     <tr>
@@ -411,180 +416,182 @@ CUDA_VISIBLE_DEVICES=0 python 5k_code.py
   </thead>
   <tbody>
     <tr>
-      <td rowspan="20">out-of-domain</td>
-      <td rowspan="6"><i>Object</i></td>
+      <td rowspan="5">Out-of-domain</td>
+      <td rowspan="5"><i>Object</i></td>
       <td>mPLUG-Owl</td>
-      <td>49.8</td>
-      <td>49.8</td>
-      <td>44.7</td>
-      <td>47.1</td>
-      <td>44.1</td>
-    </tr>
-    <tr>
-      <td>LLaVA</td>
-      <td>52.6</td>
-      <td>55.5</td>
-      <td>26.3</td>
-      <td>35.7</td>
-      <td>23.6</td>
-    </tr>
-        <tr>
-      <td>MiniGPT-4</td>
-      <td>53.2</td>
-      <td>53.1</td>
-      <td>45.8</td>
-      <td>48.8</td>
-      <td>45.4</td>
-    </tr>
-    <tr>
-      <td>LLaVA1.5</td>
-      <td>54.7</td>
-      <td>54.6</td>
-      <td>47.2</td>
-      <td>50.2</td>
-      <td>46.9</td>
-    </tr>
-    <tr>
-      <td>Instructblip</td>
-      <td>56.3</td>
-      <td>56.2</td>
-      <td>49.1</td>
-      <td>52.2</td>
-      <td>48.6</td>
-    </tr>
-  </tbody>
-   <tbody>
-      <tr>
-      <td rowspan="20">out-of-domain</td>
-      <td rowspan="6"><i>Attribute</i></td>
-      <td>mPLUG-Owl</td>
-      <td>48.4</td>
-      <td>48.3</td>
-      <td>43.2</td>
-      <td>45.6</td>
-      <td>42.6</td>
-    </tr>
-    <tr>
-      <td>LLaVA</td>
-      <td>51.2</td>
-      <td>51.1</td>
-      <td>45.7</td>
-      <td>48.4</td>
-      <td>45.1</td>
-    </tr>
-    <tr>
-      <td>MiniGPT-4</td>
-      <td>52.8</td>
-      <td>52.7</td>
-      <td>46.1</td>
-      <td>49.2</td>
-      <td>45.8</td>
-    </tr>
-    <tr>
-      <td>LLaVA1.5</td>
-      <td>54.3</td>
-      <td>54.2</td>
-      <td>47.1</td>
-      <td>50.1</td>
-      <td>46.7</td>
-    </tr>
-    <tr>
-      <td>Instructblip</td>
-      <td>55.9</td>
-      <td>55.8</td>
-      <td>48.7</td>
-      <td>51.8</td>
-      <td>48.3</td>
-    </tr>
-  </tbody>
-   <tbody>
-    <tr>
-      <td rowspan="20">out-of-domain</td>
-      <td rowspan="6"><i>Relation</i></td>
-      <td>mPLUG-Owl</td>
-      <td>47.6</td>
-      <td>47.5</td>
-      <td>42.8</td>
-      <td>45.1</td>
-      <td>42.1</td>
-    </tr>
-    <tr>
-      <td>LLaVA</td>
-      <td>50.4</td>
       <td>50.3</td>
-      <td>45.2</td>
-      <td>47.8</td>
-      <td>44.7</td>
-    </tr>
-    <tr>
-      <td>MiniGPT-4</td>
-      <td>51.9</td>
-      <td>51.8</td>
-      <td>46.5</td>
-      <td>49.6</td>
-      <td>46.2</td>
-    </tr>
-    <tr>
-      <td>LLaVA1.5</td>
-      <td>53.4</td>
-      <td>53.3</td>
-      <td>47.8</td>
-      <td>50.8</td>
-      <td>47.4</td>
-    </tr>
-    <tr>
-      <td>Instructblip</td>
-      <td>55.0</td>
-      <td>54.9</td>
-      <td>48.3</td>
-      <td>51.4</td>
-      <td>47.9</td>
-    </tr>
-    </tbody>
-   <tbody>
-    <tr>
-     <td rowspan="20">out-of-domain</td>
-      <td rowspan="6"><i>Event</i></td>
-      <td>mPLUG-Owl</td>
+      <td>50.4</td>
+      <td>43.6</td>
       <td>46.8</td>
-      <td>46.7</td>
-      <td>42.1</td>
-      <td>44.3</td>
-      <td>41.4</td>
+      <td>43.4</td>
     </tr>
     <tr>
       <td>LLaVA</td>
-      <td>49.6</td>
-      <td>49.5</td>
-      <td>44.5</td>
-      <td>47.1</td>
-      <td>44.0</td>
+      <td>50.7</td>
+      <td>52.7</td>
+      <td>9.0</td>
+      <td>15.3</td>
+      <td>7.2</td>
     </tr>
     <tr>
       <td>MiniGPT-4</td>
-      <td>51.2</td>
-      <td>51.1</td>
-      <td>45.8</td>
-      <td>48.6</td>
-      <td>45.4</td>
-    </tr>
-    <tr>
-      <td>LLaVA1.5</td>
-      <td>52.7</td>
+      <td>50.3</td>
+      <td>51.7</td>
+      <td>53.6</td>
       <td>52.6</td>
-      <td>46.9</td>
-      <td>49.8</td>
-      <td>46.5</td>
+      <td>25.0</td>
     </tr>
     <tr>
-      <td>Instructblip</td>
-      <td>54.3</td>
-      <td>54.2</td>
-      <td>47.5</td>
-      <td>50.6</td>
-      <td>47.1</td>
+      <td>InstructBLIP</td>
+      <td>50.0</td>
+      <td>50.0</td>
+      <td>100.0</td>
+      <td>66.6</td>
+      <td>100.0</td>
     </tr>
-   </tbody>
+    <tr>
+      <td>LLaVA 1.5</td>
+      <td>59.2</td>
+      <td>86.2</td>
+      <td>21.9</td>
+      <td>35.0</td>
+      <td>18.2</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+          <td rowspan="5">Out-of-domain</td>
+      <td rowspan="5"><i>Attribute</i></td>
+      <td>mPLUG-Owl</td>
+      <td>50.4</td>
+      <td>50.5</td>
+      <td>43.6</td>
+      <td>46.8</td>
+      <td>42.9</td>
+    </tr>
+    <tr>
+      <td>LLaVA</td>
+      <td>51.8</td>
+      <td>66.5</td>
+      <td>9.0</td>
+      <td>15.8</td>
+      <td>6.2</td>
+    </tr>
+    <tr>
+      <td>MiniGPT-4</td>
+      <td>50.0</td>
+      <td>51.5</td>
+      <td>53.6</td>
+      <td>52.6</td>
+      <td>24.7</td>
+    </tr>
+    <tr>
+      <td>InstructBLIP</td>
+      <td>50.0</td>
+      <td>50.0</td>
+      <td>100.0</td>
+      <td>66.6</td>
+      <td>100.0</td>
+    </tr>
+    <tr>
+      <td>LLaVA 1.5</td>
+      <td>58.1</td>
+      <td>79.4</td>
+      <td>21.9</td>
+      <td>34.4</td>
+      <td>13.8</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+          <td rowspan="5">Out-of-domain</td>
+      <td rowspan="5"><i>Relation</i></td>
+      <td>mPLUG-Owl</td>
+      <td>50.0</td>
+      <td>50.0</td>
+      <td>43.6</td>
+      <td>46.6</td>
+      <td>43.1</td>
+    </tr>
+    <tr>
+      <td>LLaVA</td>
+      <td>50.8</td>
+      <td>57.1</td>
+      <td>9.0</td>
+      <td>15.5</td>
+      <td>7.8</td>
+    </tr>
+    <tr>
+      <td>MiniGPT-4</td>
+      <td>49.7</td>
+      <td>50.9</td>
+      <td>53.6</td>
+      <td>52.2</td>
+      <td>24.6</td>
+    </tr>
+    <tr>
+      <td>InstructBLIP</td>
+      <td>50.0</td>
+      <td>50.0</td>
+      <td>100</td>
+      <td>66.6</td>
+      <td>100.0</td>
+    </tr>
+    <tr>
+      <td>LLaVA 1.5</td>
+      <td>53.7</td>
+      <td>60.2</td>
+      <td>21.9</td>
+      <td>32.2</td>
+      <td>12.7</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+          <td rowspan="5">Out-of-domain</td>
+      <td rowspan="5"><i>Event</i></td>
+      <td>mPLUG-Owl</td>
+      <td>50.1</td>
+      <td>50.1</td>
+      <td>43.6</td>
+      <td>46.6</td>
+      <td>43.3</td>
+    </tr>
+    <tr>
+      <td>LLaVA</td>
+      <td>46.2</td>
+      <td>31.2</td>
+      <td>9.0</td>
+      <td>14.0</td>
+      <td>13.2</td>
+    </tr>
+    <tr>
+      <td>MiniGPT-4</td>
+      <td>49.3</td>
+      <td>52.3</td>
+      <td>53.6</td>
+      <td>53.0</td>
+      <td>24.3</td>
+    </tr>
+    <tr>
+      <td>InstructBLIP</td>
+      <td>50.0</td>
+      <td>50.0</td>
+      <td>100</td>
+      <td>66.6</td>
+      <td>99.9</td>
+    </tr>
+    <tr>
+      <td>LLaVA 1.5</td>
+      <td>57.7</td>
+      <td>77.2</td>
+      <td>21.9</td>
+      <td>34.2</td>
+      <td>14.2</td>
+    </tr>
+  </tbody>
+</table>
+
    
 </table>
 </p>
