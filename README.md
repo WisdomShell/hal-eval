@@ -1,5 +1,10 @@
 # Hal-Eval: A Universal and Fine-grained Hallucination Evaluation Framework for Large Vision Language Models
 
+<style>
+  tr {
+    border-bottom: 1px solid black;
+  }
+</style>
 
 <p align="center">
   🤗 <a href="https://huggingface.co/WisdomShell" target="_blank">Hugging Face</a>  • 🌐 <a href="http://se.pku.edu.cn/kcl/" target="_blank">PKU-KCL</a> •  🤖  <a href="http://27.188.73.160:7102/" target="_blank">Demo: **Hal-Evaluator**</a> • <body>
@@ -396,11 +401,6 @@ CUDA_VISIBLE_DEVICES=0 python 5k_code.py
   </tr>
 </tbody>
 </table>
-<style>
-  tr {
-    border-bottom: 1px solid black;
-  }
-</style>
 <table>
   <thead>
     <tr>
