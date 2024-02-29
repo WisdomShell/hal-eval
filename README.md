@@ -7,7 +7,7 @@
 </style> -->
 
 <p align="center">
-  🤗 <a href="https://huggingface.co/WisdomShell" target="_blank">Hugging Face</a>  • 🌐 <a href="http://se.pku.edu.cn/kcl/" target="_blank">PKU-KCL</a> •  🤖  <a href="http://27.188.73.160:7102/" target="_blank">Demo: **Hal-Evaluator**</a> • <body>
+  🤗 <a href="https://huggingface.co/WisdomShell" target="_blank">Hugging Face</a>  • 🌐 <a href="http://se.pku.edu.cn/kcl/" target="_blank">PKU-KCL</a> •  🤖  <a href="http://27.188.73.160:7102/" target="_blank">Demo: Hal-Evaluator</a> • <body>
     &#9749 
 </body> <a href="https://arxiv.org/abs/2402.15721" target="_blank">Paper</a> 
  
